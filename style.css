@@ -1,9 +1,21 @@
-*{
+body{
     list-style-type: none;
     text-decoration: none;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
    
 }
 
+html::-webkit-scrollbar-track{
+   background: transparent !important;
+}
+html::-webkit-scrollbar-thumb{
+  background: #e53937 !important;
+  border-radius: 10px;
+}
+html::-webkit-scrollbar{
+   width: 10px;
+}
 
 /* nav-bar */
 #navbar{
